@@ -1,0 +1,95 @@
+html, body {
+    box-sizing: border-box;
+}
+body {
+    background: #04192A;
+    margin: 12px;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #7CDFB4;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Lato", sans-serif;
+    color: #DFB47C;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: #7CDFB4;
+}
+
+/* Based off of W3Schools navigation bar. */
+ul {
+    list-style-type: none;
+    background-color: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    float: left;
+}
+
+li a, .btn {
+    float: left;
+    display: inline-block;
+    color:#DFB47C; 
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+
+}
+
+li a.active {
+    /*background-color: #7CDFB4;*/
+    /*color: #8C5BB1;*/
+    text-decoration: overline;
+}
+
+li a img {
+    margin: 0;
+    height: 42px;
+    filter:invert(30%) ;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.fade-in {
+    opacity: 0.65;
+    transition: opacity 800ms ease-in-out;
+}
+
+.fade-in:hover {
+    opacity: 1;
+}
+
+img {
+    padding: 12px;
+    box-sizing: border-box;
+    width: 50%;
+}
